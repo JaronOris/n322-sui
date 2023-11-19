@@ -9,7 +9,7 @@ export default function Home() {
         <div className={homeStyle.banner}>
           <div className={homeStyle.columnContent}>
             <h1 className={homeStyle.header}>PokePedia</h1>
-            <p>Search for a pokemon and see it`&apos`s entry!</p>
+            <p>Search for a pokemon and see its entry!</p>
           </div>
         </div>
       </div>
