@@ -1,0 +1,26 @@
+.entry {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 30pt;
+  font-style: italic;
+  border-bottom: solid black 2px;
+}
+
+.pokePic {
+  width: 400px;
+  height: 400px;
+}
+
+.placeHolderContainer {
+  margin: 0 auto;
+}
+
+.statHolder {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20pt;
+  border-radius: 20px;
+  color: white;
+}
