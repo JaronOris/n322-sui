@@ -4,7 +4,7 @@ import { Loader, Image, Grid, Divider, Placeholder } from "semantic-ui-react";
 import homeStyle from "../../styles/Home.module.css";
 import pokemonStyle from "../../styles/Pokemon.module.css";
 
-export default function pokemonName() {
+export default function PokemonName() {
   const [pokemonInfo, setPokemonInfo] = React.useState({ loading: true });
   const router = useRouter();
 
@@ -43,12 +43,14 @@ export default function pokemonName() {
                       <Image
                         className={pokemonStyle.pokePic}
                         src={pokemonInfo.sprites.other.home.front_default}
+                        alt=""
                       />
                     </Grid.Column>
                     <Grid.Column>
                       <Image
                         className={pokemonStyle.pokePic}
                         src={pokemonInfo.sprites.other.home.front_shiny}
+                        alt=""
                       />
                     </Grid.Column>
                   </Grid.Row>
